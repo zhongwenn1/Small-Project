@@ -7,6 +7,7 @@ Created on Wed Jan  8 16:53:58 2020
 
 import sys
 from fileProc import FileProc
+from dataProc import DataProc
 from PyQt5 import QtWidgets
 from PyQt5 import QtGui
 from PyQt5.QtWidgets import (QApplication, QWidget, QLabel, QFileDialog, QTextEdit, QHBoxLayout, 
@@ -31,17 +32,9 @@ class App(QWidget):
         self.setGeometry(self.left, self.top, self.width, self.height)
 
         hlayout = QHBoxLayout()
-       
-
-        # self.label = QtWidgets.QLabel(self)
-        # self.label.setText("label")
-        # hlayout.addWidget(self.label)
-        # self.label.setAlignment(Qt.AlignRight)
 
         self.textBox = QLineEdit(self)
         hlayout.addWidget(self.textBox)
-
-        # hlayout.addStretch(1)
 
         self.openButton = QtWidgets.QPushButton(self)
         self.openButton.setText("Open")
@@ -55,8 +48,6 @@ class App(QWidget):
     
     def choosePath(self):
         # pop out the file dialog
-   #      fname = QFileDialog.getOpenFileName(self, 'Open file', 
-   # 'c:\\',"Log files (*.log *.txt *.png)")
 
         dialog = QFileDialog()
         dialog.setFileMode(QFileDialog.ExistingFiles)
@@ -66,7 +57,7 @@ class App(QWidget):
             filenames = dialog.selectedFiles()  
         # print(filenames)
         illegal = False
-        suf = 'txt' # test for single .txt first, need to modify for final version
+        suf = 'log' # test for single .txt first, need to modify for final version
         if len(filenames) != 0:
             for f in filenames: # check all files are illegal in here
                 print(f, f.rfind('.'), f[f.rfind('.')+1:])
@@ -82,10 +73,17 @@ class App(QWidget):
             # we made here because all files are log file
             # go to File process procedure, I might prababely create a calss for process log files
             else:
-                self.textBox.setText(filenames[0])
-                fp = FileProc(filenames[0])
+                self.textBox.setText(('').join(filenames))
+                # fp = DataProc(filenames[0]) # for process data and show diagram, single file
+                fp = FileProc(filenames)
+                # print(fp.getLinkedBags(), fp.getLinkedBagsNum())
+                linked_bags = fp.getLinkedBags()
+                dp = DataProc(linked_bags)
+
+                # uncomment below when fileProc connect to dataProc
                 self.h = HisView('his.png')
                 self.h.show()
+                # to here
 
         # process data by fname, save chart to img
         # image single file open in new window successfully
@@ -128,6 +126,10 @@ if __name__ == '__main__':
     ex = App()
     sys.exit(app.exec_())
 
+
+   #      fname = QFileDialog.getOpenFileName(self, 'Open file', 
+   # 'c:\\',"Log files (*.log *.txt *.png)")
+   
         # self.pixmap = QPixmap('C:/Users/wzhong/Documents/ff.png')
 
         # show histogram in label widget
