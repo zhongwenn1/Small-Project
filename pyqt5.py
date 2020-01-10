@@ -60,7 +60,7 @@ class App(QWidget):
         suf = 'log' # test for single .txt first, need to modify for final version
         if len(filenames) != 0:
             for f in filenames: # check all files are illegal in here
-                print(f, f.rfind('.'), f[f.rfind('.')+1:])
+                print(f)    #, f.rfind('.'), f[f.rfind('.')+1:])
                 suffix = f[f.rfind('.')+1:]
                 if suffix != suf:
                     print("Illegal selection")
@@ -73,9 +73,10 @@ class App(QWidget):
             # we made here because all files are log file
             # go to File process procedure, I might prababely create a calss for process log files
             else:
-                self.textBox.setText(('').join(filenames))
+                self.textBox.setText((',').join(filenames))
                 # fp = DataProc(filenames[0]) # for process data and show diagram, single file
                 fp = FileProc(filenames)
+                print("show loding dialog")
                 # print(fp.getLinkedBags(), fp.getLinkedBagsNum())
                 linked_bags = fp.getLinkedBags()
                 dp = DataProc(linked_bags)
@@ -106,15 +107,16 @@ class App(QWidget):
         retval = msg.exec_()
         # print ("value of pressed message box button:", retval)
 
-    def update(self):
-        self.label.adjustSize()
+    # def update(self):
+    #     self.label.adjustSize()
 
 
 class HisView(QWidget):
     def __init__(self, filename):
         super(HisView, self).__init__()
         # self.theHist = QLabel('text', self)
-
+        self.setWindowTitle("Showing histogram")
+        self.setGeometry(200, 300, 640, 480)
         # Create widget
         self.labelHis = QLabel(self)
         self.pixmap = QPixmap(filename)
@@ -129,7 +131,7 @@ if __name__ == '__main__':
 
    #      fname = QFileDialog.getOpenFileName(self, 'Open file', 
    # 'c:\\',"Log files (*.log *.txt *.png)")
-   
+
         # self.pixmap = QPixmap('C:/Users/wzhong/Documents/ff.png')
 
         # show histogram in label widget

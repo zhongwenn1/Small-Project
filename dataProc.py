@@ -46,9 +46,11 @@ class DataProc:
   def getDiffHistogram(self, df):
     num_bins = len(df) 
     fig = plt.figure()
-    n, bins, pathches = plt.hist(df['Diff'], num_bins, facecolor='blue', alpha=0.5)   
+    # fig = plt.figure(figsize=(6.4, 4.8), dpi=1000)
+    n, bins, pathches = plt.hist(df['Diff'], 100, facecolor='blue', alpha=0.5)   # need a fixed '100' here, otherwise too small to see
     plt.xlabel("Attenuation Window")
     plt.ylabel("Frequency")
+    plt.title("Summary: ")
     # plt.show()
     fig.savefig('his.png')
 
