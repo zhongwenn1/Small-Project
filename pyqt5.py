@@ -10,9 +10,8 @@ from fileProc import FileProc
 from dataProc import DataProc
 from PyQt5 import QtWidgets
 from PyQt5 import QtGui
-from PyQt5.QtWidgets import (QApplication, QWidget, QLabel, QFileDialog, QTextEdit, QHBoxLayout, 
-    QMessageBox, QLineEdit)
-from PyQt5.QtGui import QIcon, QPixmap
+from PyQt5.QtWidgets import *
+from PyQt5.QtGui import *
 from PyQt5.QtCore import Qt
 
 class App(QWidget):
@@ -38,7 +37,7 @@ class App(QWidget):
 
         self.openButton = QtWidgets.QPushButton(self)
         self.openButton.setText("Open")
-        # self.openButton.clicked.connect(self.openClicked) # open image directly for now
+
         self.openButton.clicked.connect(self.choosePath)
         hlayout.addWidget(self.openButton)
 
@@ -74,26 +73,24 @@ class App(QWidget):
             # go to File process procedure, I might prababely create a calss for process log files
             else:
                 self.textBox.setText((',').join(filenames))
-                # fp = DataProc(filenames[0]) # for process data and show diagram, single file
-                fp = FileProc(filenames)
                 print("show loding dialog")
-                # print(fp.getLinkedBags(), fp.getLinkedBagsNum())
+                # self.l = LoadView()
+                # self.l
+                fp = FileProc(filenames)
+                
                 linked_bags = fp.getLinkedBags()
-                dp = DataProc(linked_bags)
+                unlinked_bags = fp.getUnlinkedBags()
+                print(len(linked_bags), len(unlinked_bags))
+                dp = DataProc(linked_bags, unlinked_bags)
 
+                # self.l.setParent(None)
                 # uncomment below when fileProc connect to dataProc
-                self.h = HisView('his.png')
-                self.h.show()
+                self.m = MainMenu('his.png')
+
+                # self.h = HisView('his.png')
+                # self.h.show()
                 # to here
 
-        # process data by fname, save chart to img
-        # image single file open in new window successfully
-        # print(fname[0])
-        # self.h = HisView(fname[0])
-        # self.h.show()
-        # self.label.setText("Displaying the histogram")  
-
-        # self.update()
 
     def showdialog(self):
         msg = QMessageBox()
@@ -110,18 +107,48 @@ class App(QWidget):
     # def update(self):
     #     self.label.adjustSize()
 
+class LoadView(QWidget):
+    def __init__(self):
+        super(LoadView, self).__init__()
+        self.setWindowTitle("Loading")
+        self.setGeometry(250, 250, 200, 70)
+        self.labelLoading = QLabel(self)
+        self.labelLoading.setText("Loading")
 
-class HisView(QWidget):
-    def __init__(self, filename):
-        super(HisView, self).__init__()
-        # self.theHist = QLabel('text', self)
-        self.setWindowTitle("Showing histogram")
-        self.setGeometry(200, 300, 640, 480)
-        # Create widget
+class MainMenu(QMainWindow):
+    def __init__(self, image):
+        super().__init__()
+        self.imageName = image
+        self.initUI()
+
+    def initUI(self):
+        bar = self.menuBar()    # menu bar
+        file_menu = bar.addMenu('File') # File menu
+        open_action = QtWidgets.QAction('Open', self)
+        close_action = QtWidgets.QAction('Close', self)
+        file_menu.addAction(open_action)
+        file_menu.addAction(close_action)       
+
+        # hisWidget = HisView('his.png')
+        hisWidget = QWidget()
+        self.setCentralWidget(hisWidget)
+        lay = QVBoxLayout(hisWidget)
+
         self.labelHis = QLabel(self)
-        self.pixmap = QPixmap(filename)
+        # vlayout.addWidget(self.labelHis)       
+        self.pixmap = QPixmap(self.imageName)
         self.labelHis.setPixmap(self.pixmap)
+        self.labelHis.adjustSize()
         self.resize(self.pixmap.width(), self.pixmap.height())
+        lay.addWidget(self.labelHis)
+
+
+        self.setGeometry(100, 100, 640, 480)
+        # self.setFixedSize(self.size())    # add this line will crop image
+        self.setWindowTitle('Histogram') 
+
+        self.show()
+
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)

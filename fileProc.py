@@ -21,14 +21,23 @@ class FileProc:
 
     return self.linked_bags  # just for test here, will change later
 
+  def getUnlinkedBags(self):
+    for infile in self.filenames:
+      with open(infile) as f:
+        f = f.readlines()
+      for line in f:
+        if "No bag is in the window" in line:
+          self.unlinked_bags.append(line)
+    return self.unlinked_bags
+
   def getLinkedBagsNum(self):
     return len(self.linked_bags)
 
-  def getUnlinkedBags(self):
-    pass
-
   def getUnlinkedBagsNum(self):
     return len(self.unlinked_bags)
+
+  def getTotalBags(self):
+    return self.getLinkedBagsNum() + self.getUnlinkedBagsNum()
 
 # if __name__ == '__main__':
 #   fp = FileProc(['AnalogicStandaloneType2_20190506.log', 'AnalogicStandaloneType2_20190506.log'])

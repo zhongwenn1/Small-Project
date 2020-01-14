@@ -3,7 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 class DataProc:
-  def __init__(self, lines):
+  def __init__(self, lines, unlinked_bags):
+    self.unlinked_bags = unlinked_bags
     self.lines = lines
     self.file_tag_lst = []
     self.time_lst = []
@@ -45,13 +46,23 @@ class DataProc:
 
   def getDiffHistogram(self, df):
     num_bins = len(df) 
+    # fig, ax = plt.subplots()
+    # ax.plot("fdsfsfsd")
     fig = plt.figure()
     # fig = plt.figure(figsize=(6.4, 4.8), dpi=1000)
     n, bins, pathches = plt.hist(df['Diff'], 100, facecolor='blue', alpha=0.5)   # need a fixed '100' here, otherwise too small to see
     plt.xlabel("Attenuation Window")
     plt.ylabel("Frequency")
-    plt.title("Summary: ")
+    plt.title("Bin Tracking Histogram", fontsize=15)
+    total = len(self.lines)+len(self.unlinked_bags)
+    linked = len(self.lines)
+    unlinked = len(self.unlinked_bags)
+    percentage = ((len(self.unlinked_bags)/(len(self.lines)+len(self.unlinked_bags))) * 100)
+    plt.figtext(.52,.75,'Total bins: {0} \nTotal linked bags: {1} \nTotal unlinked bags: {2}\nPercentage of unlinked bags: {3:.2f} %'.format(total, linked, unlinked, percentage),fontsize=9,ha='left')
+    # plt.title('Total bins: {0} \nTotal linked bags: {1} \nTotal unlinked bags: {2}\nPercentage of unlinked bags: {3:.2f} %'.format(total, linked, unlinked, percentage))
+    print('Total bins: {0} \nTotal linked bags: {1} \nTotal unlinked bags: {2}\nPercentage of unlinked bags: {3:.2f} %'.format(total, linked, unlinked, percentage))
     # plt.show()
+    # plt.legend("Linked bags: ")
     fig.savefig('his.png')
 
   def getFileTag(self, filetag):
