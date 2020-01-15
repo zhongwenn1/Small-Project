@@ -6,13 +6,14 @@ Created on Wed Jan  8 16:53:58 2020
 """
 
 import sys
+from preProc import PreProc
 from fileProc import FileProc
 from dataProc import DataProc
 from PyQt5 import QtWidgets
 from PyQt5 import QtGui
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
-from PyQt5.QtCore import Qt
+from PyQt5.QtCore import Qt, QAbstractTableModel
 
 class App(QWidget):
 
@@ -76,20 +77,27 @@ class App(QWidget):
                 print("show loding dialog")
                 # self.l = LoadView()
                 # self.l
-                fp = FileProc(filenames)
-                
-                linked_bags = fp.getLinkedBags()
-                unlinked_bags = fp.getUnlinkedBags()
-                print(len(linked_bags), len(unlinked_bags))
-                dp = DataProc(linked_bags, unlinked_bags)
+                # fp = FileProc(filenames)
+                pp = PreProc(filenames)
+                dp = DataProc('in_window_logfile.csv', 'machine_decision_logfile.csv')
+                # linked_bags = fp.getLinkedBags()
+                # unlinked_bags = fp.getUnlinkedBags()
+                # print(len(linked_bags), len(unlinked_bags))
+                # dp = DataProc(linked_bags, unlinked_bags)
 
-                # self.l.setParent(None)
-                # uncomment below when fileProc connect to dataProc
-                self.m = MainMenu('his.png')
+                # # self.l.setParent(None)
+                # # uncomment below when fileProc connect to dataProc
+                # self.m = MainMenu('his.png')      # this line is to show histogram
 
                 # self.h = HisView('his.png')
                 # self.h.show()
                 # to here
+                print(dp.dfinal)
+                model = pandasModel(dp.dfinal)
+                self.view = QTableView()
+                self.view.setModel(model)
+                self.view.resize(800, 600)
+                self.view.show()
 
 
     def showdialog(self):
@@ -104,16 +112,28 @@ class App(QWidget):
         retval = msg.exec_()
         # print ("value of pressed message box button:", retval)
 
-    # def update(self):
-    #     self.label.adjustSize()
+class pandasModel(QAbstractTableModel):
 
-class LoadView(QWidget):
-    def __init__(self):
-        super(LoadView, self).__init__()
-        self.setWindowTitle("Loading")
-        self.setGeometry(250, 250, 200, 70)
-        self.labelLoading = QLabel(self)
-        self.labelLoading.setText("Loading")
+    def __init__(self, data):
+        QAbstractTableModel.__init__(self)
+        self._data = data
+
+    def rowCount(self, parent=None):
+        return self._data.shape[0]
+
+    def columnCount(self, parnet=None):
+        return self._data.shape[1]
+
+    def data(self, index, role=Qt.DisplayRole):
+        if index.isValid():
+            if role == Qt.DisplayRole:
+                return str(self._data.iloc[index.row(), index.column()])
+        return None
+
+    def headerData(self, col, orientation, role):
+        if orientation == Qt.Horizontal and role == Qt.DisplayRole:
+            return self._data.columns[col]
+        return None
 
 class MainMenu(QMainWindow):
     def __init__(self, image):
