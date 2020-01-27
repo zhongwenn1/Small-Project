@@ -1,0 +1,9 @@
+0, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+1.5, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+5, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+6, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+9, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+12, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+17, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+18, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+22, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
