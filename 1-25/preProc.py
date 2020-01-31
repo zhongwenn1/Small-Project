@@ -25,9 +25,9 @@ class PreProc:
 				with open(infile) as f:
 					for line in f:
 						time, rfID, bagID, travelDist, beamDiff, linked = "", "", "", 0, 0, 0
-						self.inWindow(line)
-						self.machineDec(line)
-						self.notInWindow(line)
+						# self.inWindow(line)
+						# self.machineDec(line)
+						# self.notInWindow(line)
 						self.stopRunTime(line)
 
 
@@ -67,4 +67,4 @@ class PreProc:
 			self.f5.write(line)  
 
 if __name__ == '__main__':
-  fp = PreProc(['C:/Users/wzhong/Documents/temp/logfiles/AnalogicStandaloneType2_20190623.log'])
+  fp = PreProc(['C:/Users/wzhong/Documents/temp/logfiles/AnalogicStandaloneType2_20190624.log'])
