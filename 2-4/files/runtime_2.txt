@@ -1,0 +1,323 @@
+2019-06-22 03:13:56.972617, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:01:00.297625, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:01:28.575802, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:04:32.975158, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:05:09.018972, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:05:15.315012, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:05:37.259013, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:05:57.495383, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:06:04.808835, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:06:19.620713, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:06:31.291771, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:06:38.537635, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:06:57.923560, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:07:17.932894, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:07:24.226159, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:08:32.905666, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:09:15.339996, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:09:20.625925, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:10:00.993641, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:10:07.519703, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:10:15.775272, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:10:51.277067, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:11:13.330662, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:11:19.631539, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:11:40.958753, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:11:42.769255, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:11:56.864340, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:12:22.704255, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:12:27.705885, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:12:37.498527, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:13:16.145537, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:13:49.606981, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:13:56.918132, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:14:19.111165, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:15:14.150611, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:15:21.389588, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:15:33.171939, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:15:41.775481, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:15:49.063156, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:16:15.423505, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:16:28.832072, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:16:34.208664, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:16:58.125097, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:17:12.788715, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:17:20.140604, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:17:53.666466, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:17:59.910658, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:18:09.483375, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:20:45.795588, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:20:53.470676, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:21:02.005682, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:21:29.676544, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:21:49.140094, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:21:55.476557, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:22:16.296778, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:22:31.544680, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:22:37.814712, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:22:58.771512, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:23:10.791238, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:23:17.149778, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:27:15.323533, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:36:50.521286, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:36:59.526074, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:37:06.408052, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:37:29.651428, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:37:51.537015, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:37:58.221331, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:38:21.858867, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:38:53.155159, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:39:00.399851, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:39:13.801851, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:39:31.712046, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:39:37.981324, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:39:46.633399, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:40:05.716820, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:40:12.069236, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:40:25.146843, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:40:57.604286, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:41:03.280514, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:41:14.857978, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:42:48.539394, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:42:54.853418, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:43:05.224577, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:43:20.265700, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:43:26.581499, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:44:34.621230, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:45:12.525591, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:45:19.877220, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:45:24.785733, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:47:24.086015, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:47:30.668408, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:47:48.755165, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:49:08.025752, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:49:14.377486, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:49:24.488417, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:49:29.738806, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:49:38.508198, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:50:29.011101, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:50:55.101619, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:51:01.370778, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 04:51:11.708717, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 04:51:27.551351, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 04:51:33.898499, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 09:31:36.643060, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 09:39:51.237298, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 09:39:54.776169, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 09:40:05.556222, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 09:40:26.268866, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 09:40:29.613132, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 09:40:41.478561, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 09:51:16.783857, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 09:51:22.029776, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 09:51:31.802477, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 09:52:57.412455, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 09:53:16.704785, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 09:53:22.083029, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 09:53:55.982813, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 09:54:20.027191, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 09:54:25.328139, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 09:54:48.532454, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 09:55:15.572925, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 09:55:21.877784, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 09:55:50.853674, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 09:56:04.660912, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 09:56:11.127940, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 09:58:49.687626, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 09:59:32.406552, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 09:59:38.015440, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:02:50.019240, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:07:18.798735, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:07:30.470660, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:07:36.743761, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:07:44.757523, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:07:47.599528, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:07:59.822308, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:08:13.083111, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:08:25.728938, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:08:32.042121, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:10:10.231539, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:10:21.453071, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:10:27.740551, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:10:57.990923, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:11:05.824794, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:11:12.314455, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:12:34.138618, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:12:38.842817, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:12:49.058749, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:13:42.543049, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:14:00.200143, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:14:06.523736, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:14:22.441477, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:14:24.073496, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:14:37.460611, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:16:16.814196, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:16:20.306883, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:16:30.854917, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:30:24.415709, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:31:29.792451, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:31:35.817644, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:31:45.055896, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:36:02.014731, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:36:23.327877, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:36:29.677800, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:36:56.394149, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:37:12.448210, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:37:19.722187, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:37:41.702960, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:37:54.508840, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:37:59.964148, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:38:19.777274, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:39:00.056054, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:39:05.413709, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:39:37.338703, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:40:01.062078, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:40:06.476492, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:40:21.593273, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:40:38.634034, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:40:44.903241, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:40:52.860570, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:41:45.390623, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:41:51.664178, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:42:01.044567, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:42:16.853169, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:42:23.192220, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:42:32.537355, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:42:41.422051, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:42:48.717236, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:42:55.889237, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:43:04.734125, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:43:10.144598, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:43:18.573764, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:43:31.636373, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:43:37.961010, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:43:45.723377, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:44:18.782875, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:44:25.103826, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:44:32.452133, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:45:00.365800, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:45:06.641940, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:45:14.988751, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:45:16.435648, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:45:31.073532, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:45:37.293422, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:45:52.776268, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:45:59.200782, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:46:05.812210, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:46:16.336232, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:46:22.722042, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:46:28.599022, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:46:54.881369, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:47:01.246587, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:47:21.973257, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:47:36.422054, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:47:42.110167, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:47:49.038337, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:48:05.770710, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:48:12.109075, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:48:16.658376, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:48:30.107069, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:48:35.648513, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:48:42.126736, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:49:21.215279, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:49:28.579064, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:49:33.307669, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:49:43.146802, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:49:48.495751, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:49:55.414910, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:50:05.462055, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:50:11.816832, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:50:18.529520, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:50:35.797872, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:50:42.143188, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:50:49.245277, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:50:49.846705, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:51:05.273226, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:51:14.413466, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:51:22.692681, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:51:29.385625, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:51:35.551133, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:52:09.256393, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:52:16.530368, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:52:47.576580, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:53:25.816017, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:53:32.095732, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:53:40.660699, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:53:47.582431, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:53:55.052030, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:54:05.931814, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:54:19.367959, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:54:25.642168, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:54:32.801967, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:54:48.842758, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:54:54.604696, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:55:02.527061, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:55:06.052881, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:55:17.599273, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:55:41.909756, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:55:45.378350, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:55:57.725169, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:56:05.421178, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:56:14.656340, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:56:20.053900, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:57:00.549733, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:57:14.426851, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:57:20.026259, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:57:43.739802, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:57:52.843474, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:57:59.134020, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:58:07.324240, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 10:58:39.552303, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 10:58:44.984218, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 10:58:53.638643, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 11:00:12.574550, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 11:00:18.293445, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 11:00:24.802873, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 11:00:29.651265, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 11:00:38.893004, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 11:00:45.806159, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 11:00:58.683575, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 11:01:05.003205, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 11:01:12.356956, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 11:01:35.472493, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 11:01:41.836450, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 11:01:57.187421, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 11:02:00.626485, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 11:02:12.063447, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 11:03:05.162476, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 11:03:08.623900, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 11:03:20.229501, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 11:07:44.061181, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 11:07:52.667670, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 11:07:59.071229, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 19:11:37.482744, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 19:14:46.706231, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 19:15:08.000899, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 19:15:13.488034, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 19:20:37.731717, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 19:20:52.202991, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 19:20:57.778859, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 19:21:09.702648, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 19:21:31.519554, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 19:21:38.015268, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 19:21:47.944633, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 19:21:55.401291, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 19:22:04.922390, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 19:22:15.052442, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 19:23:20.117733, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 19:23:26.390437, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 19:27:42.788134, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 19:29:17.315831, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 19:29:22.594704, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 19:29:54.409320, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 19:30:20.225689, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 19:30:44.803802, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 19:30:49.019314, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 19:33:12.278433, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 19:33:17.704890, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 19:33:51.533349, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 19:34:43.829673, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 19:34:49.281980, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
+2019-06-22 19:34:55.943503, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER IDLE message and disabling RTR
+2019-06-22 19:35:23.476163, INFO, BHS_INTF, DiebackResponseCommand::Sent SCANNER RUNNING message.
+2019-06-22 19:35:29.918594, INFO, BHS_INTF, BaseOp::EvalState: scanner [SCAN,SCANNING_SS] conveyor [RUNNING] = flushing [false] scanning [true] mode [Autonomous] in diagnostic [false]
