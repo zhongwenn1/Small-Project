@@ -1,0 +1,69 @@
+Bin Tracking Tool
+
+This programs extract needed information from log files and create charts, summary label display on the interface.
+
+
+Prerequisites
+
+Python 3.6 (https://tecadmin.net/install-python-3-6-on-centos/)
+	
+1. Requrements
+
+	This Python installation required GCC compiler. To install prerequisites for Python:
+		yum install gcc openssl-devel bzip2-devel sqlite-devel
+
+2. Dolownloas Python 3.6
+
+	Download Python from the Python official site or directly download the latest version like below:
+		cd /user/src
+		wget https://www.python.org/ftp/python/3.6.9/Python-3.6.9.tgz
+
+	Extract the downloaded package:
+		tar xzf Python-3.6.9.tgz
+
+3. Install Python 3.6
+
+	Using altinstall to compile Python source code:
+		cd Python-3.6.9
+		./configure --enable-optimizations
+		make altinstall
+	'make altinstall' is used to prevent replacing default python in system
+
+	Remove downloaded source file:
+		rm /usr/src/Python-3.6.9.tgz
+
+4. Check Python Version
+
+	Check the version of installed python:
+		python3.6 -V
+
+Qt5 - Install the CentOS 7 system Qt5:
+	yum install qt5-qtbase-devel
+
+PyQt5 (compatible with Python3+) - Install the particular version of PyQt5:
+	pip3 install PyQt5==5.13
+
+PyQtChart - Install the particular version of PyQtChart:
+	pip3 install PyQtChart==5.13
+
+
+Executable file
+
+Install the pyinstaller package:
+	pip3 install pyinstaller
+
+Then inside the working directory:
+	pyinstaller binTrackingApp.py
+
+The executable file can be found at xxx_dist_xx/binTrackingApp/
+
+
+Running the program
+
+python3 binTrackingApp.py
+
+or
+
+cd xxx_dist_xx/binTrackingApp
+./binTrackingApp
+
